@@ -7,16 +7,12 @@ const fs = require("fs");
 
 const app = express();
 
-// if (process.env.GOOGLE_CREDENTIALS) {
-
-//     const credentialsPath =
-//         path.join(__dirname, "credentials.json");
-
-//     fs.writeFileSync(
-//         credentialsPath,
-//         process.env.GOOGLE_CREDENTIALS
-//     );
-// }
+if (process.env.GOOGLE_CREDENTIALS) {
+    fs.writeFileSync(
+        path.join(__dirname, "credentials.json"),
+        process.env.GOOGLE_CREDENTIALS
+    );
+}
 
 const assignRoute = require("./routes/assign");
 const submitTaskRoute = require("./routes/submitTask");
