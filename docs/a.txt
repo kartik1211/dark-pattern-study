@@ -1,0 +1,182 @@
+STUDY PROTOCOL
+
+Title:
+The Influence of Dark Patterns on User Decision-Making and Trust in Digital Interfaces
+
+---
+
+1. Study Overview
+
+This study is a controlled web-based experiment in Human-Computer Interaction (HCI) that investigates how dark patterns in user interfaces influence user decision-making behavior, perceived trust, and satisfaction.
+
+A between-subjects experimental design is used, where participants are randomly assigned to either a control group (transparent interface) or an experimental group (interface containing dark patterns).
+
+---
+
+2. Research Objectives
+
+The primary objectives of this study are:
+
+- To examine whether dark patterns influence user decision-making
+- To evaluate the impact of dark patterns on user trust
+- To measure user satisfaction differences between control and experimental interfaces
+
+---
+
+3. Hypotheses
+
+H1:
+Users exposed to dark patterns are more likely to make unintended or unwanted selections compared to users exposed to a transparent interface.
+
+H2:
+Users exposed to dark patterns report lower trust in the system compared to control users.
+
+H3:
+Users exposed to dark patterns report lower satisfaction compared to control users.
+
+---
+
+4. Experimental Design
+
+Study Type:
+Between-subjects experiment
+
+Groups:
+- Control Group: Transparent user interface
+- Experimental Group: Dark pattern interface
+
+Sample Size:
+- Total participants: 50
+- Control group: 25 participants
+- Experimental group: 25 participants
+
+Randomization:
+Participants are randomly assigned to groups using a balanced assignment mechanism with quota enforcement.
+
+---
+
+5. Independent Variable
+
+Interface Design:
+- Control (transparent UI)
+- Experimental (dark pattern UI)
+
+---
+
+6. Dependent Variables
+
+The following dependent variables are measured:
+
+1. Decision-making behavior
+   - Number of unwanted selections (e.g., preselected options accepted)
+
+2. Trust
+   - Measured using Likert-scale questionnaire (T1–T6)
+
+3. Satisfaction
+   - Measured using Likert-scale questionnaire (S1–S4)
+
+4. Behavioral metrics
+   - Completion time
+   - Interaction patterns
+
+---
+
+7. Dark Patterns Used in Experimental Condition
+
+The experimental interface includes the following dark patterns:
+
+- Preselection: Default selection of premium options
+- Confirm-shaming: Guilt-inducing opt-out messages
+- Hidden costs: Delayed or less visible pricing information
+- Forced continuity: Messaging implying automatic continuation
+- Obstruction: Extra steps to access opt-out settings
+- Misdirection: Visual emphasis on primary action buttons
+
+---
+
+8. Procedure
+
+Step 1: Consent
+Participants are presented with a consent form and must agree before proceeding.
+
+Step 2: Group Assignment
+Participants are assigned to either control or experimental group.
+
+Step 3: Task Execution
+Participants interact with a simulated subscription-based website and complete tasks:
+
+- Create an account
+- Select subscription plan
+- Configure privacy settings
+- Complete a summary/confirmation step
+
+Step 4: Data Collection
+User interactions are recorded, including selections and completion time.
+
+Step 5: Questionnaire
+Participants complete a post-task survey measuring trust and satisfaction.
+
+Step 6: Debriefing
+Participants are informed about the use of dark patterns and the purpose of the study.
+
+---
+
+9. Data Collection
+
+Data is collected via:
+- Frontend event tracking
+- Form submissions
+- Backend API endpoints
+- Storage in Google Sheets
+
+Collected fields include:
+- participantId
+- group assignment
+- behavioral selections
+- completion time
+- questionnaire responses
+
+---
+
+10. Data Analysis Plan
+
+Statistical analysis will be performed using SPSS, R, or Jamovi.
+
+Tests include:
+- Independent samples t-test
+
+Variables compared:
+- Trust score (T1–T6 average)
+- Satisfaction score (S1–S4 average)
+- Unwanted selection count
+
+Significance level:
+p < 0.05
+
+---
+
+11. Ethical Considerations
+
+- No real financial transactions are involved
+- No personal sensitive data is collected
+- Participants may withdraw at any time
+- Full debriefing is provided after completion
+- Data is stored anonymously in Google Sheets
+
+---
+
+12. Limitations
+
+- Small sample size (n=50)
+- Single domain (subscription-based UI)
+- Limited demographic diversity
+- Controlled laboratory-style environment
+
+---
+
+13. Expected Contribution
+
+This study contributes to Human-Computer Interaction research by providing empirical evidence on how deceptive interface design influences user trust, satisfaction, and decision-making behavior.
+
+It also provides insights for ethical UI/UX design practices and regulatory considerations for digital platforms.

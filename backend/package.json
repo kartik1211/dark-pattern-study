@@ -1,0 +1,30 @@
+{
+  "name": "dark-pattern-study",
+  "version": "1.0.0",
+  "description": "HCI experiment to study impact of dark patterns on user decision-making, trust, and satisfaction",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "hci",
+    "dark-patterns",
+    "ux",
+    "experiment",
+    "nodejs",
+    "express"
+  ],
+  "author": "Kartik Subramaniam",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

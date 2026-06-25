@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.question {
+    margin-bottom: 25px;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background-color: #fafafa;
+}
+
+.question-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.likert {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.likert-option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.likert-option input[type="radio"] {
+    cursor: pointer;
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

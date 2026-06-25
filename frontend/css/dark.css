@@ -1,0 +1,62 @@
+/* frontend/css/dark.css */
+
+/* DARK PATTERN GROUP: Manipulative UI styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #222;
+}
+
+#app {
+    width: 720px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+/* Make primary actions more prominent (misdirection) */
+button {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #1558b0;
+}
+
+/* Downplay opt-out options */
+#optOutText,
+#optOut {
+    font-size: 11px;
+    color: #888;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+/* Hidden-feel advanced settings (obstruction support) */
+#advancedToggle {
+    color: #1a73e8;
+    font-size: 13px;
+}
+
+/* Subscription emphasis (preselection reinforcement) */
+.plan {
+    margin-bottom: 16px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Make premium feel more attractive (misdirection) */
+.plan:nth-child(2) {
+    border: 2px solid #1a73e8;
+    background: #f0f6ff;
+}
