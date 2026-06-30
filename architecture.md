@@ -203,7 +203,7 @@ Stores survey responses.
 ## Scalability
 
 Designed for:
-- 50 participants (controlled study size)
+- Considering first 50 participants
 
 Not intended for:
 - Production-scale traffic

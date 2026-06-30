@@ -36,6 +36,12 @@ router.get("/", async (req, res) => {
         const participantId = uuid();
         const group = await assignGroup();
 
+        if (group === "FULL") {
+            return res.status(403).json({
+                error: "Study has reached the maximum number of participants."
+            });
+        }
+
         await saveAssignment(participantId, group);
 
         res.json({
